@@ -6,7 +6,9 @@ The data is in Excel for your view [Download here](https://1drv.ms/x/c/fc11b36f1
 ## Tools
 R Programming- for manipulation, Cleaning, and Visualization 
 
-- Little bit of code 
+- Little bit of code
+
+
 ~~~(r)
 nigeria_data<- World_bank %>%
   filter(`Country Name`=="Nigeria")
@@ -26,6 +28,7 @@ nigeria_long<-nigeria_data_filter %>%
               mutate(Year= as.numeric(str_extract(Year, "\\d{4}")))
 View(nigeria_long)
 ~~~
+
 ### ANALYSIS FINDINGS 
 The data took into account the growth of Nigeria's Gross Domestic Product, GDP per capita, and Population growth from 1990 to 2023.
 1. Report on Nigeria's Population
