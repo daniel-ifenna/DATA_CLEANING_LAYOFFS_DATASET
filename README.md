@@ -45,6 +45,7 @@ The population has been on a steady rise from 1990 to 2023, even considering the
 
 
  2. Report on GDP
+
 The country's GDP experienced significant growth from 2000, reaching an all-time high of $574,183,763,412 in 2014. However, from 2016 to 2023, the GDP revenue declined due to various economic, political, and social factors. These challenges included:
 
 - Over-reliance on oil
