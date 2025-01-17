@@ -35,9 +35,20 @@ The population has been on a steady rise from 1990 to 2023, even considering the
  ![Nigeria Population from 1990- 2023](https://github.com/daniel-ifenna/Journey-into-data-analytics-/blob/aa1c42c7f1c8326eb6ebca8a32fe464cd3a52460/population%20growth.png) 
 
  #### Report on GDP
- The Country's GDP began to gain traction from the year 2000 and reached a recorded all-time high in 2014 as $574,183,763,412.00. From the year 2016 - 2023, we begin to see a decline in the GDP Revenue due to certain economic, political, and social factors such as Dependency on Oil, Shift in Human capital from the motherland to other parts of the world, poor policy formulation in the support of businesses, insecurity and many more. 
- Looking at the graph, the forecast alone highlights further declines in the coming year. Take a look below
- ![Nigeri's GDP from 1990 - 2023](
+The country's GDP experienced significant growth from 2000, reaching an all-time high of $574,183,763,412 in 2014. However, from 2016 to 2023, the GDP revenue declined due to various economic, political, and social factors. These challenges included:
+
+- Over-reliance on oil
+- Brain drain: Human capital migration from the country to other parts of the world
+- Inadequate policy support for businesses
+- Insecurity and other issues
+
+As evident from the graph, the forecast suggests further declines in the coming year.
+ ![Nigeri's GDP from 1990 - 2023](https://github.com/daniel-ifenna/Journey-into-data-analytics-/blob/e18a3d1c0dcf9d47b5cf738146923ee29780b70b/GDP%20growth.png)
+
+
+ #### Report on GDP per capita
+ The GDP per capita trend mirrors the GDP growth trend. But with differing implications. In 2014, the average Nigerian citizen's income was around $3,000, which was relatively sufficient for the standard of living at the time. However, as GDP declined, so did the per capita income. Currently, the average Nigerian citizen earns between $2,000-$2,200, which is insufficient due to economic inflation and population growth. 
+ ![GDP PER CAPITA](
  
  
 
