@@ -1,4 +1,4 @@
-## World Bank Data- Country analysis Nigeria
+# World Bank Data- Country analysis Nigeria
 
 ## This data is purely for learning as I aimed to improve my Data Cleaning, Manipulation, and Visualization skills. 
 
@@ -31,8 +31,12 @@ View(nigeria_long)
 ### ANALYSIS FINDINGS 
 The data took into account the growth of Nigeria's Gross Domestic Product, GDP per capita, and Population growth from 1990 to 2023.
 ## Report on Nigeria's Population
-The population has been on a steady rise from 1990 to 2023, even considering the COVID-19 outbreak from the graph below we see consistency in the increase in Nigeria's population.
- ![Nigeria Population from 1990- 2023](https://github.com/daniel-ifenna/Journey-into-data-analytics-/blob/aa1c42c7f1c8326eb6ebca8a32fe464cd3a52460/population%20growth.png) 
+The population has been on a steady rise from 1990 to 2023, even considering the COVID-19 outbreak from the graph below we see consistency in the increase in Nigeria's population.  
+
+
+![Nigeria Population from 1990- 2023](https://github.com/daniel-ifenna/Journey-into-data-analytics-/blob/aa1c42c7f1c8326eb6ebca8a32fe464cd3a52460/population%20growth.png) 
+
+
 
  ## Report on GDP
 The country's GDP experienced significant growth from 2000, reaching an all-time high of $574,183,763,412 in 2014. However, from 2016 to 2023, the GDP revenue declined due to various economic, political, and social factors. These challenges included:
