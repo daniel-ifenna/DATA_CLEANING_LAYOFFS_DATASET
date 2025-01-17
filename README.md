@@ -34,7 +34,7 @@ The data took into account the growth of Nigeria's Gross Domestic Product, GDP p
 The population has been on a steady rise from 1990 to 2023, even considering the COVID-19 outbreak from the graph below we see consistency in the increase in Nigeria's population.  
 
 
-![Nigeria Population from 1990- 2023](https://github.com/daniel-ifenna/Journey-into-data-analytics-/blob/6c3254d2389e918382322a293dc12204a216b2a8/population%20growth.png)
+[Nigeria Population from 1990- 2023](https://github.com/daniel-ifenna/Journey-into-data-analytics-/blob/6c3254d2389e918382322a293dc12204a216b2a8/population%20growth.png)
 
 
 
