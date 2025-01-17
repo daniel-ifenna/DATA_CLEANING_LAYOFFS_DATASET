@@ -40,7 +40,7 @@ The country's GDP experienced significant growth from 2000, reaching an all-time
 - Inadequate policy support for businesses
 - Insecurity and other issues
 
-As evident from the graph, the forecast suggests further declines in the coming year.
+As evident from the graph the forecast suggests further declines in the coming year.
  
  3. Report on GDP per capita
 
