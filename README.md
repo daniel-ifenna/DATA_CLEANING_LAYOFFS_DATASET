@@ -32,7 +32,7 @@ The data took into account the growth of Nigeria's Gross Domestic Product, GDP p
 1. Report on Nigeria's Population
 The population has been on a steady rise from 1990 to 2023, even considering the COVID-19 outbreak from the graph we see consistency in the increase in Nigeria's population.
 
-2.Report on GDP
+2. Report on GDP
 The country's GDP experienced significant growth from 2000, reaching an all-time high of $574,183,763,412 in 2014. However, from 2016 to 2023, the GDP revenue declined due to various economic, political, and social factors. These challenges included:
 
 - Over-reliance on oil
@@ -46,12 +46,11 @@ As evident from the graph, the forecast suggests further declines in the coming 
 
  The GDP per capita trend mirrors the GDP growth trend. But with differing implications. In 2014, the average Nigerian citizen's income was around $3,000, which was relatively sufficient for the standard of living at the time. However, as GDP declined, so did the per capita income. Currently, the average Nigerian citizen earns between $2,000-$2,200, which is insufficient due to economic inflation and population growth. 
 
+ ## PLOTS
 
-
-
-
-
-
+![](images/population%20growth.png)
+![](images/GDP%20per%20capita.png)
+![](images/GDP%20growth.png)
 
  
  ## RECOMMENDATION 
