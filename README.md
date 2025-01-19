@@ -48,14 +48,14 @@ As evident from the graph the forecast suggests further declines in the coming y
 
  The GDP per capita trend mirrors the GDP growth trend. But with differing implications. In 2014, the average Nigerian citizen's income was around $3,000, which was relatively sufficient for the standard of living at the time. However, as GDP declined, so did the per capita income. Currently, the average Nigerian citizen earns between $2,000-$2,200, which is insufficient due to economic inflation and population growth. 
 
-  ### PLOTS
+### PLOTS
 
 ![](images/population%20growth.png)
 ![](images/GDP%20per%20capita.png)
 ![](images/GDP%20growth.png)
 
  
- #### RECOMMENDATION 
+#### RECOMMENDATION 
  
  Human capital is a major contributor to economic growth coupled with good policy and Job availability. My recommendations are as follows
  - The Nigeria government should not rely on Oil as a major economic resource and therefore explore other mineral resources such as; Tin, Minerals, Kaolin, renewable energy (geothermal wells), increases in exportation, etc
