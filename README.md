@@ -16,7 +16,7 @@ MYSQL
 
 [View script](https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa)
 
-[Cleaned data]([https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa](https://1drv.ms/x/c/fc11b36f16d1a624/EX0EEQMHa4NAgbkBsLlt2kMBrmnXYqBf-kDx-XLUafDyTw?e=MzgYsj))
+[Cleaned data](https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa](https://1drv.ms/x/c/fc11b36f16d1a624/EX0EEQMHa4NAgbkBsLlt2kMBrmnXYqBf-kDx-XLUafDyTw?e=MzgYsj))
 
  
 
