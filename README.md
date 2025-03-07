@@ -14,7 +14,7 @@ MYSQL
 
 - **Enhancing Readability:** Reformatted tables for better interpretation and removed irrelevant columns like `row_num` after completing the cleaning process.
 
-[View script]([Layoff cleaning.sql](https://github.com/daniel-ifenna/DATA_CLEANING_LAYOFFS_DATASET/blob/8b86f0476e210a18617c60050794909f18e442f4/Layoff%20cleaning.sql))
+[Layoff cleaning.sql](https://github.com/daniel-ifenna/DATA_CLEANING_LAYOFFS_DATASET/blob/8b86f0476e210a18617c60050794909f18e442f4/Layoff%20cleaning.sql))
 
 [Cleaned data](https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa](https://1drv.ms/x/c/fc11b36f16d1a624/EX0EEQMHa4NAgbkBsLlt2kMBrmnXYqBf-kDx-XLUafDyTw?e=MzgYsj))
 
