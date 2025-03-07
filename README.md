@@ -1,67 +1,22 @@
-# World Bank Data- Country analysis Nigeria
- This data is purely for learning to improve my Data Cleaning, Manipulation, and Visualization skills. 
+# WORLD LAYOFFS FROM 2020 - 2023 DATA CLEANING USING MYSQL
+This project focused on cleaning and standardizing records of the world layoffs dataset using MySQL to ensure data accuracy, consistency, and readiness for analysis. The dataset included multiple tables: company, location, industry, total_laid_off, percentage_laid_off, stage, country, and funds_raised_millions. The data cleaning tasks involved identifying and handling duplicates, null values, blank cells, and inconsistencies across all tables. 
 
-The data is in Excel for your view [Download here](https://1drv.ms/x/c/fc11b36f16d1a624/EaHQQL3K7gdGnQeR0lP2plkB8faiGCVh0QkEHqKohzyluQ?e=bKvP6b)
+The data is in Excel for your view [Download here](https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa)
 
-## Tools
-R Programming- for manipulation, Cleaning, and Visualization 
+## Technical Tools
+MYSQL
 
-- Little bit of code
+## Key Steps Performed 
+- **Checking and Removing Duplicates:** I created a new table that replicated the values and format of the raw data for the cleaning process. Using a Common Table Expression (CTE) with `ROW_NUMBER()`, I identified and removed duplicate records from the dataset.
+- **Standardizing Data:** Ensured data consistency by trimming extra spaces in the `company` column. Corrected spelling variations in the `industry` column, where entries like `crypto currency`, `crypto`, and `crypto.` were standardized to `Crypto`. Similarly, inconsistencies in the `country` column, such as `United States` and `United states.`, were unified as `United States`. Additionally, the `date` column was converted from text to a proper `DATE` format.  
 
+- **Handling Null Values and Blank Spaces:** Removed records where both `total_laid_off` and `percentage_laid_off` were null or blank, as they could impact exploratory analysis. For companies with missing industry data, values were filled based on matching company names to improve data accuracy for analysis.  
 
-~~~(r)
-nigeria_data<- World_bank %>%
-  filter(`Country Name`=="Nigeria")
-selected_criteria <- c("Population, total",
-         "Population growth (annual %)",
-         "Surface area (sq. km)",
-         "Poverty headcount ratio at national poverty line",
-         "GDP (current US$)",
-         "GDP growth (annual %)")
-nigeria_data_filter<-nigeria_data %>% 
-  filter(`Series Name` %in% selected_criteria)
+- **Enhancing Readability:** Reformatted tables for better interpretation and removed irrelevant columns like `row_num` after completing the cleaning process.
 
-nigeria_long<-nigeria_data_filter %>% 
-  pivot_longer(cols=5:16,
-               names_to = "Year",
-               values_to = "Values") %>% 
-              mutate(Year= as.numeric(str_extract(Year, "\\d{4}")))
-View(nigeria_long)
-~~~
+[View script](https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa)
 
-### ANALYSIS FINDINGS 
-The data took into account the growth of Nigeria's Gross Domestic Product, GDP per capita, and Population growth from 1990 to 2023.
-1. Report on Nigeria's Population
-The population has been on a steady rise from 1990 to 2023, even considering the COVID-19 outbreak from the graph we see consistency in the increase in Nigeria's population.
+[Cleaned data]([https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa](https://1drv.ms/x/c/fc11b36f16d1a624/EX0EEQMHa4NAgbkBsLlt2kMBrmnXYqBf-kDx-XLUafDyTw?e=MzgYsj))
 
-2. Report on GDP
-The country's GDP experienced significant growth from 2000, reaching an all-time high of $574,183,763,412 in 2014. However, from 2016 to 2023, the GDP revenue declined due to various economic, political, and social factors. These challenges included:
-
-- Over-reliance on oil
-- Brain drain: Human capital migration from the country to other parts of the world
-- Inadequate policy support for businesses
-- Insecurity and other issues
-
-As evident from the graph the forecast suggests further declines in the coming year.
- 
- 3.  Report on GDP per capita
-
- The GDP per capita trend mirrors the GDP growth trend. But with differing implications. In 2014, the average Nigerian citizen's income was around $3,000, which was relatively sufficient for the standard of living at the time. However, as GDP declined, so did the per capita income. Currently, the average Nigerian citizen earns between $2,000-$2,200, which is insufficient due to economic inflation and population growth. 
-
-### PLOTS
-
-![](images/population%20growth.png)
-![](images/GDP%20per%20capita.png)
-![](images/GDP%20growth.png)
-
- 
-#### RECOMMENDATION 
- 
- Human capital is a major contributor to economic growth coupled with good policy and Job availability. My recommendations are as follows
- - The Nigeria government should not rely on Oil as a major economic resource and therefore explore other mineral resources such as; Tin, Minerals, Kaolin, renewable energy (geothermal wells), increases in exportation, etc
- The Nigerian government should create favorable policies that ensure the country is a safe space for businesses to grow, which will create Jobs.
- Curbing inflation, as the current increase in the standard of living threatens job security and everyday lifestyle.
- - All sovereign accounts should have money recorded in Naira rather than dollars. This may help in increasing the purchasing power of Naira.
- 
  
 
