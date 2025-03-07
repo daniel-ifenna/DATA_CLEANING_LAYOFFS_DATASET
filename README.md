@@ -1,5 +1,5 @@
 # WORLD LAYOFFS FROM 2020 - 2023 DATA CLEANING USING MYSQL
-This project focused on cleaning and standardizing records of the world layoffs dataset using MySQL to ensure data accuracy, consistency, and readiness for analysis. The dataset included multiple tables: company, location, industry, total_laid_off, percentage_laid_off, stage, country, and funds_raised_millions. The data cleaning tasks involved identifying and handling duplicates, null values, blank cells, and inconsistencies across all tables. 
+This project focused on cleaning and standardizing records from the World Layoffs dataset using MySQL to enhance data accuracy, consistency, and readiness for analysis. The dataset comprised multiple fields, including `company`, `location`, `industry`, `total_laid_off`, `percentage_laid_off`, `stage`, `country`, and `funds_raised_millions`. The data cleaning process involved identifying and resolving duplicates, handling null values and blank cells, and correcting inconsistencies across all records. 
 
 The data is in Excel for your view [Download here](https://1drv.ms/x/c/fc11b36f16d1a624/EenBnEDQQMRGs7-iQcmdl6sBBTO5GHI9Zsli4MAMECDP8Q?e=b8lmLa)
 
